@@ -1,0 +1,22 @@
+{
+  "name": "HelloWorldPod",
+  "version": "0.1.0",
+  "summary": "A short description of HelloWorldPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/infiniteloopltd/HelloWorldPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "infiniteloopltd": "fiach.reid@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/infiniteloopltd/HelloWorldPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HelloWorldPod/Classes/**/*"
+}

@@ -1,8 +1,8 @@
 {
   "name": "HelloWorldPod",
   "version": "0.1.0",
-  "summary": "A short description of HelloWorldPod.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "It just says hello world",
+  "description": "This is just a getting started pod. Says hello world",
   "homepage": "https://github.com/infiniteloopltd/HelloWorldPod",
   "license": {
     "type": "MIT",

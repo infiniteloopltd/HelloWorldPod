@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HelloWorldPod: f4f10bdd82ae08a765cedc7d72e7200e2aec0b0f
+  HelloWorldPod: 7a1262a13906688ee170d12de0abafb6fb32e00c
 
 PODFILE CHECKSUM: 64987efceb8218632b02083f3b5e1793c30bfd04
 

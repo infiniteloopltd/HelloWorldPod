@@ -31,7 +31,6 @@ This is just a getting started pod. Says hello world
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HelloWorldPod/Classes/**/*'
-
   # s.resource_bundles = {
   #   'HelloWorldPod' => ['HelloWorldPod/Assets/*.png']
   # }

@@ -7,30 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B47B032F6F04570EB0AAC20E5E7948 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D83AB45D4FD04ED38B9CE8E84DD36 /* HelloWorld.swift */; };
+		0B805BA053DB0647915AD927DD2AB2B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		148FF24246FAE6579256A4156CED136E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		26DF0244ADB3299A8129F0571DCB04CC /* Pods-HelloWorldPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B37A4AE1285E5921D0A57FB5942A34D5 /* Pods-HelloWorldPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32A09D89B547E263FC46EE400A8F8F86 /* Pods-HelloWorldPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 737BD809BCA181929F18DBB045480BBD /* Pods-HelloWorldPod_Tests-dummy.m */; };
-		338DE6ABFBB17FE91DAF9D19C8F6AD46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BFF9C4565ACFE1750A3ECD3622888F3C /* Pods-HelloWorldPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C946836C396FACE519FCF178C16C0 /* Pods-HelloWorldPod_Example-dummy.m */; };
+		5D5BC115D69BE4C99EBC6C7059584277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61052E6149DC18F8B2780F782C5CC2E6 /* HelloWorldPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D18EE54AA5A4BAB7D83F571031E5F58B /* HelloWorldPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF96CA10E3C3C1F92C627D6854322147 /* Pods-HelloWorldPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5C946836C396FACE519FCF178C16C0 /* Pods-HelloWorldPod_Example-dummy.m */; };
+		E78896226ACB4158DDF619733F706B12 /* Pods-HelloWorldPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B37A4AE1285E5921D0A57FB5942A34D5 /* Pods-HelloWorldPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC0AFE52DB595FB34AFBEA60C46D64E5 /* Pods-HelloWorldPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E83C08DE0EDF8EE1E052990F00E845 /* Pods-HelloWorldPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A900AAEFC1F6DE33711EB0144338C4 /* HelloWorldPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E848C91AAD050FA5A92D7CED5156CDBA /* HelloWorldPod-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A093BCB306F5896433CA152784DE4C73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFEC9E4ED582C577767E5E4000DADD5;
+			remoteInfo = HelloWorldPod;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05418E0F57DDFEDDE23974DBBA22FEE1 /* Pods-HelloWorldPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E927AD633F7AD7DDE0C90351C1BF758 /* Pods-HelloWorldPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWorldPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1F768F8A5F213CF2F0516255624DA29B /* Pods-HelloWorldPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		30DB293A642C148D9EBF478E314B9096 /* Pods_HelloWorldPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldPod_Example.framework; path = "Pods-HelloWorldPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DC2A7B7E2943E2A141855AFE816508 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57427882827036F8578B13CE42366F92 /* HelloWorldPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HelloWorldPod.xcconfig; sourceTree = "<group>"; };
+		5AEF07ED83C54EA071D82B0B59639C28 /* Pods_HelloWorldPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldPod_Example.framework; path = "Pods-HelloWorldPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		705B60A7832D5F9237C188DE284E56E2 /* Pods-HelloWorldPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWorldPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72E83C08DE0EDF8EE1E052990F00E845 /* Pods-HelloWorldPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWorldPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		737BD809BCA181929F18DBB045480BBD /* Pods-HelloWorldPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		7835E4D6BADA8D8D893D6CC366098B26 /* Pods-HelloWorldPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HelloWorldPod_Tests.modulemap"; sourceTree = "<group>"; };
+		7FBDDEA107C32A805935A6B12B051F81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C4705D2EF0EDD90DF6B946F838DBC8 /* Pods-HelloWorldPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		889DB594C35A135F0075D6F92A8C5405 /* Pods-HelloWorldPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AECE710DE2862E51312299EA2F652FC /* Pods_HelloWorldPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldPod_Tests.framework; path = "Pods-HelloWorldPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8D83AB45D4FD04ED38B9CE8E84DD36 /* HelloWorld.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelloWorld.swift; path = HelloWorldPod/Classes/HelloWorld.swift; sourceTree = "<group>"; };
+		A8C41E4C7330142CEC508CDD206F0893 /* Pods_HelloWorldPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldPod_Tests.framework; path = "Pods-HelloWorldPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37A4AE1285E5921D0A57FB5942A34D5 /* Pods-HelloWorldPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWorldPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		B47D8A1D7EFF768A3198B20C04E5D8CC /* HelloWorldPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HelloWorldPod.modulemap; sourceTree = "<group>"; };
+		B586713BC93FEB12849FD5687A64FE3B /* HelloWorldPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HelloWorldPod.framework; path = HelloWorldPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C512DFA3486E5BAE45B8E1CF0B4B7C82 /* HelloWorldPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWorldPod-prefix.pch"; sourceTree = "<group>"; };
 		C56947088185DCD6AE40840AAC0F1BFF /* Pods-HelloWorldPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		C74DBE189DE6439E276BB179E796D04B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C815B14AF10297253B844F4271E8204A /* Pods-HelloWorldPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -38,16 +58,26 @@
 		CBDF76E13102ED6F7352D57A29495C16 /* Pods-HelloWorldPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CE35D8A2AC5AF822219FAB6DD7048590 /* Pods-HelloWorldPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldPod_Example-resources.sh"; sourceTree = "<group>"; };
 		D13B5624F09958F9339B67AABA57D99A /* Pods-HelloWorldPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D18EE54AA5A4BAB7D83F571031E5F58B /* HelloWorldPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWorldPod-umbrella.h"; sourceTree = "<group>"; };
+		E848C91AAD050FA5A92D7CED5156CDBA /* HelloWorldPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HelloWorldPod-dummy.m"; sourceTree = "<group>"; };
 		E89AA7F782C9B868AEFF71C18D40CA25 /* Pods-HelloWorldPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EA5C946836C396FACE519FCF178C16C0 /* Pods-HelloWorldPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldPod_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		347590EC35B5FD0EAE0EAC6BE1D4761C /* Frameworks */ = {
+		080B213CE985F58CECE491C8E0455486 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338DE6ABFBB17FE91DAF9D19C8F6AD46 /* Foundation.framework in Frameworks */,
+				5D5BC115D69BE4C99EBC6C7059584277 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7703EE6A3388AC9B4CC3FB424F2E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B805BA053DB0647915AD927DD2AB2B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,23 +92,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0367678EAAB646C627C4D9556E9752CC /* HelloWorldPod */ = {
+		401C63A278FA81B9589970DAD2F33B00 /* HelloWorldPod */ = {
 			isa = PBXGroup;
 			children = (
+				9C8D83AB45D4FD04ED38B9CE8E84DD36 /* HelloWorld.swift */,
+				82E7380E6AC3D48A30A7488F42570FB7 /* Support Files */,
 			);
 			name = HelloWorldPod;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		51DAC4261D5EF2085F8E96089040C8AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				401C63A278FA81B9589970DAD2F33B00 /* HelloWorldPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		58D96FA0E4BC926AE0B13CCF783D9B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B586713BC93FEB12849FD5687A64FE3B /* HelloWorldPod.framework */,
+				5AEF07ED83C54EA071D82B0B59639C28 /* Pods_HelloWorldPod_Example.framework */,
+				A8C41E4C7330142CEC508CDD206F0893 /* Pods_HelloWorldPod_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BF785C7CA1808CCE9DC513132434DBBF /* Development Pods */,
+				51DAC4261D5EF2085F8E96089040C8AC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8E070BC600E1C6883456D3BBCE73F8E9 /* Products */,
+				58D96FA0E4BC926AE0B13CCF783D9B53 /* Products */,
 				F52173742D441FD4ED6EFDC139BCF700 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82E7380E6AC3D48A30A7488F42570FB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47D8A1D7EFF768A3198B20C04E5D8CC /* HelloWorldPod.modulemap */,
+				57427882827036F8578B13CE42366F92 /* HelloWorldPod.xcconfig */,
+				E848C91AAD050FA5A92D7CED5156CDBA /* HelloWorldPod-dummy.m */,
+				C512DFA3486E5BAE45B8E1CF0B4B7C82 /* HelloWorldPod-prefix.pch */,
+				D18EE54AA5A4BAB7D83F571031E5F58B /* HelloWorldPod-umbrella.h */,
+				7FBDDEA107C32A805935A6B12B051F81 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HelloWorldPod";
 			sourceTree = "<group>";
 		};
 		8CBB25DA2678E7CA6AEAD1A9B8242B47 /* Pods-HelloWorldPod_Example */ = {
@@ -99,29 +163,12 @@
 			path = "Target Support Files/Pods-HelloWorldPod_Example";
 			sourceTree = "<group>";
 		};
-		8E070BC600E1C6883456D3BBCE73F8E9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				30DB293A642C148D9EBF478E314B9096 /* Pods_HelloWorldPod_Example.framework */,
-				9AECE710DE2862E51312299EA2F652FC /* Pods_HelloWorldPod_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF785C7CA1808CCE9DC513132434DBBF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0367678EAAB646C627C4D9556E9752CC /* HelloWorldPod */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -162,19 +209,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		20484A1F3959753FB17E2D7634A1A3BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78896226ACB4158DDF619733F706B12 /* Pods-HelloWorldPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8F81F4B5271F4158E692168743A17A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61052E6149DC18F8B2780F782C5CC2E6 /* HelloWorldPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D86C45C4D5B85EDBA0D0E224978D97DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EC0AFE52DB595FB34AFBEA60C46D64E5 /* Pods-HelloWorldPod_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA3DF557CF9BA4451F85B60EC1B625AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26DF0244ADB3299A8129F0571DCB04CC /* Pods-HelloWorldPod_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,24 +250,42 @@
 			);
 			name = "Pods-HelloWorldPod_Tests";
 			productName = "Pods-HelloWorldPod_Tests";
-			productReference = 9AECE710DE2862E51312299EA2F652FC /* Pods_HelloWorldPod_Tests.framework */;
+			productReference = A8C41E4C7330142CEC508CDD206F0893 /* Pods_HelloWorldPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A06E7E7F6AF0D658FD1EEDCFA95BA3A /* Pods-HelloWorldPod_Example */ = {
+		4DFEC9E4ED582C577767E5E4000DADD5 /* HelloWorldPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ADAA5727624A89639D712EF2F2D7283 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldPod_Example" */;
+			buildConfigurationList = 951170F18D50BA7DCCAC5FB38624E52E /* Build configuration list for PBXNativeTarget "HelloWorldPod" */;
 			buildPhases = (
-				D6E8E468C1E414975C6BDEC57F519B79 /* Sources */,
-				347590EC35B5FD0EAE0EAC6BE1D4761C /* Frameworks */,
-				EA3DF557CF9BA4451F85B60EC1B625AF /* Headers */,
+				A9DB46893E2697950EBCA9F5322F0867 /* Sources */,
+				080B213CE985F58CECE491C8E0455486 /* Frameworks */,
+				8E8F81F4B5271F4158E692168743A17A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = HelloWorldPod;
+			productName = HelloWorldPod;
+			productReference = B586713BC93FEB12849FD5687A64FE3B /* HelloWorldPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61BB3C6038B5268B2872FC93FFC51B7D /* Pods-HelloWorldPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0435BE872AB73E7A725AFBC32D50406 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldPod_Example" */;
+			buildPhases = (
+				8E0457C33C22A9A374F97A6F5C199EB3 /* Sources */,
+				3C7703EE6A3388AC9B4CC3FB424F2E08 /* Frameworks */,
+				20484A1F3959753FB17E2D7634A1A3BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4FDF71A444C1827FE65198DA080B89 /* PBXTargetDependency */,
+			);
 			name = "Pods-HelloWorldPod_Example";
 			productName = "Pods-HelloWorldPod_Example";
-			productReference = 30DB293A642C148D9EBF478E314B9096 /* Pods_HelloWorldPod_Example.framework */;
+			productReference = 5AEF07ED83C54EA071D82B0B59639C28 /* Pods_HelloWorldPod_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -232,17 +305,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8E070BC600E1C6883456D3BBCE73F8E9 /* Products */;
+			productRefGroup = 58D96FA0E4BC926AE0B13CCF783D9B53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A06E7E7F6AF0D658FD1EEDCFA95BA3A /* Pods-HelloWorldPod_Example */,
+				4DFEC9E4ED582C577767E5E4000DADD5 /* HelloWorldPod */,
+				61BB3C6038B5268B2872FC93FFC51B7D /* Pods-HelloWorldPod_Example */,
 				37130222BDE6DD8CF15883CF0614833E /* Pods-HelloWorldPod_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8E0457C33C22A9A374F97A6F5C199EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96CA10E3C3C1F92C627D6854322147 /* Pods-HelloWorldPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ECF2DE595E90ACC8FBDD555FA32C88B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,17 +333,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6E8E468C1E414975C6BDEC57F519B79 /* Sources */ = {
+		A9DB46893E2697950EBCA9F5322F0867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF9C4565ACFE1750A3ECD3622888F3C /* Pods-HelloWorldPod_Example-dummy.m in Sources */,
+				04B47B032F6F04570EB0AAC20E5E7948 /* HelloWorld.swift in Sources */,
+				F3A900AAEFC1F6DE33711EB0144338C4 /* HelloWorldPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DE4FDF71A444C1827FE65198DA080B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HelloWorldPod;
+			target = 4DFEC9E4ED582C577767E5E4000DADD5 /* HelloWorldPod */;
+			targetProxy = A093BCB306F5896433CA152784DE4C73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2F6D1E2ED0B6D73ACC35046FA621D51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDF76E13102ED6F7352D57A29495C16 /* Pods-HelloWorldPod_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Pods-HelloWorldPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloWorldPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		57BC9E15F2CE0EE681AF32E073740F12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 889DB594C35A135F0075D6F92A8C5405 /* Pods-HelloWorldPod_Tests.debug.xcconfig */;
@@ -290,78 +421,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HelloWorldPod_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5949328912198B170D19BB8EEE9FFB90 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05418E0F57DDFEDDE23974DBBA22FEE1 /* Pods-HelloWorldPod_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Pods-HelloWorldPod_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HelloWorldPod_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6CC40270DBD66597F21869A72A84D775 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDF76E13102ED6F7352D57A29495C16 /* Pods-HelloWorldPod_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Pods-HelloWorldPod_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HelloWorldPod_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,6 +473,44 @@
 			};
 			name = Release;
 		};
+		941D7CB563CC266DA5E3A713BABEEA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05418E0F57DDFEDDE23974DBBA22FEE1 /* Pods-HelloWorldPod_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldPod_Example/Pods-HelloWorldPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloWorldPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -463,6 +560,41 @@
 			};
 			name = Debug;
 		};
+		BA9B2E3941F8D4425950AB8F821789E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57427882827036F8578B13CE42366F92 /* HelloWorldPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HelloWorldPod/HelloWorldPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HelloWorldPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HelloWorldPod/HelloWorldPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HelloWorldPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C43ACA05E367EE9F9324C8E265DBE1A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D13B5624F09958F9339B67AABA57D99A /* Pods-HelloWorldPod_Tests.release.xcconfig */;
@@ -499,6 +631,41 @@
 			};
 			name = Release;
 		};
+		D17FB409358202BB0AAE138FA53F557D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57427882827036F8578B13CE42366F92 /* HelloWorldPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HelloWorldPod/HelloWorldPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HelloWorldPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HelloWorldPod/HelloWorldPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HelloWorldPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -520,11 +687,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ADAA5727624A89639D712EF2F2D7283 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldPod_Example" */ = {
+		951170F18D50BA7DCCAC5FB38624E52E /* Build configuration list for PBXNativeTarget "HelloWorldPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CC40270DBD66597F21869A72A84D775 /* Debug */,
-				5949328912198B170D19BB8EEE9FFB90 /* Release */,
+				BA9B2E3941F8D4425950AB8F821789E5 /* Debug */,
+				D17FB409358202BB0AAE138FA53F557D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0435BE872AB73E7A725AFBC32D50406 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6D1E2ED0B6D73ACC35046FA621D51B /* Debug */,
+				941D7CB563CC266DA5E3A713BABEEA26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
